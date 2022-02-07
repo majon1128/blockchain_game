@@ -1,0 +1,34 @@
+{
+    "royaltyReceiver":"this should be a receiver smart contract that has the function to split and send to the GAME, DAO, and TEAM treasuries",
+    "podController":"this needs to be the gnosis safe that will construct all the contracts in the game, this can be the team GNOSIS safe",
+    "DAO_Treasury": "Address Here",
+    "Game_Treasury": "MAIN_WORLD_events contract address here, this should act as the game treasury as this handles the events transfer of tael to p2e",
+    "Team_Treasury":"Address here, this can be the team gnosis multi sig",
+    "tokenAddresses": {
+        "trueQi":"{ADDRESS_HERE}",
+        "spiritJade":"{ADDRESS_HERE}",
+        "tael": "{ADDRESS_HERE}",
+        "veTael": "{ADDRESS_HERE}"
+    },
+    "721_Addresses" : {
+        "items":"{ADDRESS_HERE}",
+        "land":"{ADDRESS_HERE}",
+        "staking":"{ADDRESS_HERE}"
+    },
+    "1155_Addresses": {
+        "items": "{ADDRESS_HERE}"
+    },
+    "main_contracts" : {
+        "CULTI": "{ADDRESS_HERE}",
+        "LOOT": "{ADDRESS_HERE}",
+        "UNIQUE": "{ADDRESS_HERE}",
+        "WORLD_LAND": "{ADDRESS_HERE}",
+        "WORLD_MONSTERS": "{ADDRESS_HERE}",
+        "WORLD_BATTLEEVENTS": "{ADDRESS_HERE}",
+        "WORLD_REPUTATION": "{ADDRESS_HERE}",
+        "WORLD_RELATIONSHIPS": "{ADDRESS_HERE}",
+        "WORLD_AUCTION": "{ADDRESS_HERE}",
+        "WORLD_STALLS": "{ADDRESS_HERE}",
+        "WORLD_CRAFTING": "{ADDRESS_HERE}"
+    }
+}
